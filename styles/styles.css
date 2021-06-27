@@ -43,7 +43,6 @@ body {
 #menu {
     position: relative;
     width: 100%;
-    z-index: -1;
     background-color: rgb(5, 5, 5);
 }
 
@@ -53,7 +52,15 @@ body {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+}
+
+.linkMenu {
     color: rgb(255, 0, 144);
+    text-decoration: none;
+}
+
+.linkMenu:hover {
+    color: rgb(0, 183, 235);
 }
 
 .boxPrincipal {
