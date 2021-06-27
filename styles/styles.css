@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(30, 30, 30);
+    background-color: rgb(5, 5, 5);
     color:rgb(220, 220, 220);
     font-family: 'Baloo Tammudu 2';
 }
@@ -8,6 +8,11 @@ body {
     position: fixed;
     z-index: -2;
     width: 100%;
+}
+
+#logo {
+    width: 40px;
+    left: center;
 }
 
 #titulo {
@@ -25,14 +30,14 @@ body {
     color: white;
     text-shadow: 1px 1px 3px rgb(70, 70, 70);
     font-family: 'Baloo Tammudu 2', cursive;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .boxPrincipal {
     position: relative;
-    top: 100px;
+    top: 50px;
     width: 100%;
     z-index: -1;
-    background-color: rgb(30, 30, 30);
+    background-color: rgb(5, 5, 5);
     padding: 20px;
 }
