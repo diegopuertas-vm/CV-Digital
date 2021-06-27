@@ -1,0 +1,30 @@
+body {
+    background-color: darkkhaki; /*comentarios*/
+    color:darkred;
+    font-family: 'Baloo Tammudu 2';
+}
+
+#titulo1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: limegreen;
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+
+.parrafoazul {
+    color:midnightblue;
+    text-align: center;
+}
+
+#fotoPrincipal {
+    width: 200px;
+    border-radius: 20px;
+}
+
+.cajita {
+    border: 5px blue dashed;
+    border-left-color: red;
+    padding: 20px;
+    margin: 30px;
+}
