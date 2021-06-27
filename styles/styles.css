@@ -1,30 +1,38 @@
 body {
-    background-color: darkkhaki; /*comentarios*/
-    color:darkred;
+    background-color: rgb(30, 30, 30);
+    color:rgb(220, 220, 220);
     font-family: 'Baloo Tammudu 2';
 }
 
-#titulo1 {
+#videoLoop {
     position: fixed;
-    top: 0;
-    left: 0;
-    background-color: limegreen;
-    font-family: 'Baloo Tammudu 2', cursive;
+    z-index: -2;
+    width: 100%;
 }
 
-.parrafoazul {
-    color:midnightblue;
+#titulo {
+    position: relative;
+    top: 50px;
     text-align: center;
+    color: white;
+    text-shadow: 1px 1px 3px rgb(70, 70, 70);
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-size: 40px;
 }
 
-#fotoPrincipal {
-    width: 200px;
-    border-radius: 20px;
+#subtitulo {
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 3px rgb(70, 70, 70);
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-size: 20px;
 }
 
-.cajita {
-    border: 5px blue dashed;
-    border-left-color: red;
+.boxPrincipal {
+    position: relative;
+    top: 100px;
+    width: 100%;
+    z-index: -1;
+    background-color: rgb(30, 30, 30);
     padding: 20px;
-    margin: 30px;
 }
