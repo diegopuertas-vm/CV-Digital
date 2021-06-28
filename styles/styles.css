@@ -95,11 +95,6 @@ body {
 }
 
 #boxFormacion {
-    background-image: url("/images/1-1.jpg");
-    background-size: cover;
-}
-
-#boxExperiencia {
     background-image: url("/images/resumen-puntos-lineas.jpg");
     background-size: cover;
     background-position: center;
@@ -112,7 +107,7 @@ body {
 }
 
 #fotoPerfil {
-    width: 200px;
+    width: 240px;
 }
 
 .Seccion {
@@ -126,7 +121,7 @@ body {
     font-size: 20px;
 }
 
-#tablaExperiencia {
+#tablaFormacion {
     width: 60%;
     margin-left: auto;
     margin-right: auto;
