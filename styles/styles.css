@@ -85,7 +85,7 @@ body {
 }
 
 #boxInicio {
-    background-image: url("images/redesFondo.jpg");
+    background-image: url("/images/redesFondo.jpg");
     background-size: cover;
 }
 
