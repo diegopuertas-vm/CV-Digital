@@ -85,23 +85,23 @@ body {
 }
 
 #boxInicio {
-    background-image: url("/images/redesFondo.jpg");
+    background-image: url("images/redesFondo.jpg");
     background-size: cover;
 }
 
 #boxAcercade {
-    background-image: url("/images/islas_encendidas_fondo.png");
+    background-image: url("images/islas_encendidas_fondo.png");
     background-size: cover;
 }
 
 #boxFormacion {
-    background-image: url("/images/resumen-puntos-lineas.jpg");
+    background-image: url("images/resumen-puntos-lineas.jpg");
     background-size: cover;
     background-position: center;
 }
 
 #boxContacto {
-    background-image: url("/images/redes-sociais.png");
+    background-image: url("images/redes-sociais.png");
     background-size: cover;
     background-position: center;
 }
