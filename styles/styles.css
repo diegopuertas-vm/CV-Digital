@@ -8,21 +8,23 @@ body {
     margin-bottom: 1000px;
     color: rgb(5, 5, 5);
     position: fixed;
+    top: 10px;
     z-index: -3;
     width: 98%;
 }
 
+.titulos {
+    position: fixed center;
+    text-align: center;
+}
+
 #logo {
-    position: relative;
-    top: 60px;
-    left: 49%;
+    margin-top: 30px;
     width: 40px;
 }
 
 #titulo {
-    position: relative;
-    top: 30px;
-    text-align: center;
+    margin-top: -10px;
     color: white;
     text-shadow: 1px 1px 3px rgb(70, 70, 70);
     font-family: 'Baloo Tammudu 2';
@@ -31,9 +33,7 @@ body {
 }
 
 #subtitulo {
-    position: relative;
-    top: -30px;
-    text-align: center;
+    margin-top: -60px;
     color: white;
     text-shadow: 1px 1px 3px rgb(70, 70, 70);
     font-family: 'Baloo Tammudu 2';
@@ -41,7 +41,8 @@ body {
 }
 
 #menu {
-    position: relative;
+    position: fixed;
+    top: 180px;
     width: 100%;
     background-color: rgb(5, 5, 5);
 }
@@ -55,16 +56,17 @@ body {
 }
 
 .linkMenu {
-    color: rgb(255, 0, 144);
+    color: rgb(255, 0, 119);
     text-decoration: none;
 }
 
 .linkMenu:hover {
-    color: rgb(0, 183, 235);
+    color: rgb(0, 139, 139);
 }
 
 .boxPrincipal {
-    position: relative;
+    position: fixed;
+    top:200px;
     width: 100%;
     z-index: -2;
     background-color: rgb(5, 5, 5);
