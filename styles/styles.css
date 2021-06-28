@@ -58,6 +58,10 @@ body {
     text-align: center;
 }
 
+.Traslucido {
+    background-color: rgba(255, 255, 255, .50);
+}
+
 .linkMenu {
     color: rgb(255, 0, 119);
     text-decoration: none;
@@ -88,6 +92,7 @@ body {
 #boxInicio {
     background-image: url("https://diegopuertas-vm.github.io/CV-Digital/images/redesFondo.jpg");
     background-size: cover;
+    background-position: center;
 }
 
 #boxAcercade {
@@ -133,6 +138,7 @@ body {
 }
 
 #tablaFormacion {
+    position: relative;
     width: 60%;
     margin-left: auto;
     margin-right: auto;

@@ -5,7 +5,7 @@
 		<link href="styles/styles.css" rel="stylesheet">
     </head>
 
-    <body>
+    <body id="Inicio">
         <video id="videoLoop" autoplay loop>
             <source src="videos/Line_46955_cut.mp4" type="video/mp4">
         </video>
@@ -13,13 +13,13 @@
         <div id="Header">
             <img id="logo" src="images/logo.png">
             <h1 id="titulo">Diego Puertas</h1>
-            <h2 id="subtitulo">mi primer sitio web</h2>
+            <h2 id="subtitulo">MI PRIMER SITIO WEB</h2>
         </div>
 
         <div id="Nav">
             <table id="tablaMenu">
                 <th>
-                    <a class="linkMenu" href="#top">
+                    <a class="linkMenu" href="#Inicio">
                         Inicio
                     </a>
                 </th>
@@ -43,7 +43,8 @@
 
         <div class="boxPrimaria">
             <div id="boxInicio" class="boxSecundaria">
-                <table id="tablaInicio">
+                <div class="Traslucido">
+                    <table id="tablaInicio">
                         <th>
                             <img id="fotoPerfil" src="images/fotoPerfil.jpg">
                         </th>
@@ -52,65 +53,72 @@
                             <p>Tengo 39 años. Nací en Río Cuarto, provincia de Córdoba y, desde hace un par de años, estoy viviendo en Villa Mercedes (San Luis).</p>
                             <p>Además de estudiar, actualmente soy docente en la Escuela Técnica N°28 de La Toma, a cargo del espacio curricular Instalación y Reemplazo de Componentes Internos.</p>
                         </th>
-                </table>
+                    </table>
+                </div>
             </div>
             <div id="boxAcercade" class="boxSecundaria">
-                <h1 id="Acercade" class="Seccion">Sobre mí</h1>
-                <p>Soy una persona proactiva, con ganas de seguir aprendiendo. La programación web es un nuevo desafío para mí.</p>
-                <p>Hace algunos años atrás, por medio de gestores de sitios web, ya había realizado sitios web completos. Los mismos contaban con conexión a bases de datos sql, pero ese proyecto no perduró.</p>
-                <p>Comenzar a programar web desde cero a base de código puro es un nuevo desafío, que espero vencer.</p>
+                <div class="Traslucido">
+                    <h1 id="Acercade" class="Seccion">Sobre mí</h1>
+                    <p>Soy una persona proactiva, con ganas de seguir aprendiendo. La programación web es un nuevo desafío para mí.</p>
+                    <p>Hace algunos años atrás, por medio de gestores de sitios web, ya había realizado sitios web completos. Los mismos contaban con conexión a bases de datos sql, pero ese proyecto no perduró.</p>
+                    <p>Comenzar a programar web desde cero a base de código puro es un nuevo desafío, que espero vencer.</p>
+                </div>
             </div>
             <div id="boxFormacion" class="boxSecundaria">
-                <h1 id="Formacion" class="Seccion">Formación y Experiencia</h1>
-                <p>Con el correr del tiempo me formé y adquirí experiencia en diferentes áreas. Te invito a que visitar mis perfiles de Linkedin y Github. Podés escanear los códigos QR o acceder a links que están debajo de los códigos.</p>
-                <table id="tablaFormacion">
-                    <tr>
-                        <th>
-                            <a class="linkMenu" title="Linkedin" href="https://www.linkedin.com/in/diegopuertas-vm/" target="_blank" rel="noopener noreferrer"><img class="codigoQR" src="images/qrLinkedin.png" alt="link a mi perfil de Linkedin"></a>
-                        </th>
-                        <th>
-                            <a class="linkMenu" title="Github" href="https://github.com/diegopuertas-vm" target="_blank" rel="noopener noreferrer"><img class="codigoQR" src="images/qrGithub.png" alt="link a mi repositorio de Github"></a>
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            <a class="linkMenu" href="https://www.linkedin.com/in/diegopuertas-vm/" target="_blank" rel="noopener noreferrer">Linkedin</a>
-                        </th>
-                        <th>
-                            <a class="linkMenu" href="https://github.com/diegopuertas-vm" target="_blank" rel="noopener noreferrer">Github</a>
-                        </th>
-                    </tr>
-                </table>
+                <div class="Traslucido">
+                    <h1 id="Formacion" class="Seccion">Formación y Experiencia</h1>
+                    <p>Con el correr del tiempo me formé y adquirí experiencia en diferentes áreas. Te invito a que visitar mis perfiles de Linkedin y Github. Podés escanear los códigos QR o acceder a links que están debajo de los códigos.</p>
+                    <table id="tablaFormacion">
+                        <tr>
+                            <th>
+                                <a class="linkMenu" title="Linkedin" href="https://www.linkedin.com/in/diegopuertas-vm/" target="_blank" rel="noopener noreferrer"><img class="codigoQR" src="images/qrLinkedin.png" alt="link a mi perfil de Linkedin"></a>
+                            </th>
+                            <th>
+                                <a class="linkMenu" title="Github" href="https://github.com/diegopuertas-vm" target="_blank" rel="noopener noreferrer"><img class="codigoQR" src="images/qrGithub.png" alt="link a mi repositorio de Github"></a>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>
+                                <a class="linkMenu" href="https://www.linkedin.com/in/diegopuertas-vm/" target="_blank" rel="noopener noreferrer">Linkedin</a>
+                            </th>
+                            <th>
+                                <a class="linkMenu" href="https://github.com/diegopuertas-vm" target="_blank" rel="noopener noreferrer">Github</a>
+                            </th>
+                        </tr>
+                    </table>
+                </div>
             </div>
             <div id="boxContacto" class="boxSecundaria">
-                <h1 id="Contacto" class="Seccion">Contactame</h1>
-                <p>Podés contactarte conmigo a través de estos enlaces:</p>
-                <table id="tablaContacto">
-                    <tr>
-                        <th>
-                            <img class="icono" src="images/logoEmail.png" alt="logo de E-mail">
-                        </th>
-                        <th>
-                            <a class="linkMenu" href="mailto:diego.a.puertas@gmail.com">E-mail</a>
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            <img class="icono" src="images/logoSkype.png" alt="logo de Skype">
-                        </th>
-                        <th>
-                            <a class="linkMenu" href="https://join.skype.com/invite/srBhoLtH50Df" target="_blank" rel="noopener noreferrer">Skype</a>
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            <img class="icono" src="images/logoSlack.png" alt="logo de Slack">
-                        </th>
-                        <th>
-                            <a class="linkMenu" href="https://join.slack.com/t/si-informtica/shared_invite/zt-s85gtded-i8xHk4j9WZOPAjqwyhGChQ" target="_blank" rel="noopener noreferrer">Slack</a>
-                        </th>
-                    </tr>
-                </table>
+                <div class="Traslucido">
+                    <h1 id="Contacto" class="Seccion">Contactame</h1>
+                    <p>Podés contactarte conmigo a través de estos enlaces:</p>
+                    <table id="tablaContacto">
+                        <tr>
+                            <th>
+                                <img class="icono" src="images/logoEmail.png" alt="logo de E-mail">
+                            </th>
+                            <th>
+                                <a class="linkMenu" href="mailto:diego.a.puertas@gmail.com">E-mail</a>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>
+                                <img class="icono" src="images/logoSkype.png" alt="logo de Skype">
+                            </th>
+                            <th>
+                                <a class="linkMenu" href="https://join.skype.com/invite/srBhoLtH50Df" target="_blank" rel="noopener noreferrer">Skype</a>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>
+                                <img class="icono" src="images/logoSlack.png" alt="logo de Slack">
+                            </th>
+                            <th>
+                                <a class="linkMenu" href="https://join.slack.com/t/si-informtica/shared_invite/zt-s85gtded-i8xHk4j9WZOPAjqwyhGChQ" target="_blank" rel="noopener noreferrer">Slack</a>
+                            </th>
+                        </tr>
+                    </table>
+                </div>
             </div>
         </div>
     </body>
