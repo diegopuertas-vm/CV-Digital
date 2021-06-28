@@ -1,7 +1,8 @@
 body {
     background-color: rgb(5, 5, 5);
-    color:rgb(220, 220, 220);
+    color:rgb(5, 5, 5);
     font-family: 'Baloo Tammudu 2';
+    font-size: 20px;
 }
 
 #videoLoop {
@@ -70,45 +71,58 @@ body {
     position: relative;
     top: 210px;
     width: 99%;
-    height: 420px;
     padding: 10px;
     z-index: -2;
     background-color: rgb(5, 5, 5);
 }
 
+.boxSecundaria {
+    position: relative;
+    padding: 20px;
+    background-color: rgb(200, 200, 200);
+    -webkit-box-shadow: 0px 0px 5px 8px #000000; 
+    box-shadow: 0px 0px 5px 8px #000000;
+}
+
 #boxInicio {
-    background-color: rgb(55, 5, 55);
+    background-image: url("/images/redesFondo.jpg");
+    background-size: cover;
 }
 
 #boxAcercade {
-    background-color: rgb(55, 5, 5);
+    background-image: url("/images/islas_encendidas_fondo.png");
+    background-size: cover;
 }
 
 #boxFormacion {
-    background-color: rgb(155, 15, 5);
+    background-image: url("/images/1-1.jpg");
+    background-size: cover;
 }
 
 #boxExperiencia {
-    background-color: rgb(205, 255, 5);
+    background-image: url("/images/redes.jpg");
+    background-size: cover;
 }
 
 #boxContacto {
-    background-color: rgb(255, 155, 5);
-}
-
-.boxSecundaria {
-    position: relative;
-    background-color: rgb(200, 200, 200);
+    background-image: url("/images/redes-sociais.png");
+    background-size: cover;
+    background-position: center;
 }
 
 #fotoPerfil {
-    margin: 10px;
-    width: 300px;
+    width: 200px;
 }
 
-#iconosContacto {
+.Seccion {
     text-align: center;
+    color: rgb(5, 5, 5);
+    text-shadow: 2px 2px 0px #FF0077;
+}
+
+#tablaContacto {
     width: 200px;
+    font-size: 20px;
 }
 
 .icono {
