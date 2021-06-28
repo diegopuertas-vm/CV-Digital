@@ -7,17 +7,15 @@
     </head>
 
     <body>
-        <div class="Video">
-            <video id="videoLoop" autoplay loop>
-                <source src="videos/Line_46955_cut.mp4" type="video/mp4">
-            </video>
-        </div>
-        <div class="titulos">
+        <video id="videoLoop" autoplay loop>
+            <source src="videos/Line_46955_cut.mp4" type="video/mp4">
+        </video>
+        <div id="Header">
             <img id="logo" src="images/logo.png">
             <h1 id="titulo">Diego Puertas</h1>
             <h2 id="subtitulo">Desarrollador web junior</h2>
         </div>    
-        <div id="menu">
+        <div id="Nav">
             <table id="tablaMenu">
                 <th>
                     <a class="linkMenu" href="#boxInicio">
@@ -46,29 +44,60 @@
                 </th>
             </table>
         </div>
-        <div id="boxInicio">
+        <div id="boxInicio" class="boxPrimaria">
             <div class="boxSecundaria">
                 <img id="fotoPerfil" src="/images/fotoPerfil.jpg">
             </div>
         </div>
-        <div id="boxAcercade">
+        <div id="boxAcercade" class="boxPrimaria">
             <div class="boxSecundaria">
                 <img id="fotoPerfil" src="/images/fotoPerfil.jpg">
             </div>
         </div>
-        <div id="boxFormacion">
+        <div id="boxFormacion" class="boxPrimaria">
             <div class="boxSecundaria">
                 <img id="fotoPerfil" src="/images/fotoPerfil.jpg">
             </div>
         </div>
-        <div id="boxExperiencia">
+        <div id="boxExperiencia" class="boxPrimaria">
             <div class="boxSecundaria">
                 <img id="fotoPerfil" src="/images/fotoPerfil.jpg">
             </div>
         </div>
-        <div id="boxContacto">
+        <div id="boxContacto" class="boxPrimaria">
             <div class="boxSecundaria">
-                <img id="fotoPerfil" src="/images/fotoPerfil.jpg">
+                <table id="IconosContacto">
+                    <tr>
+                        <td>
+                            <img class="icono" src="/images/logoEmail.png">
+                        </td>
+                        <td>
+                            <a href="mailto:diego.a.puertas@gmail.com" target="_blank">
+                                E-mail
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img class="icono" src="/images/logoSkype.png">
+                        </td>
+                        <td>
+                            <a href="https://join.skype.com/invite/srBhoLtH50Df" target="_blank">
+                                Skype
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img class="icono" src="/images/logoSlack.png">
+                        </td>
+                        <td>
+                            <a href="https://join.slack.com/t/si-informtica/shared_invite/zt-s85gtded-i8xHk4j9WZOPAjqwyhGChQ" target="_blank">
+                                Slack
+                            </a> 
+                        </td>
+                    </tr>
+                </table>
             </div>
         </div>
     </body>

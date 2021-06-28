@@ -4,12 +4,6 @@ body {
     font-family: 'Baloo Tammudu 2';
 }
 
-.Video {
-    width: 100%;
-    z-index: -1;
-    background-color: rgb(5, 5, 5);
-}
-
 #videoLoop {
     top: -10px;
     position: fixed;
@@ -18,8 +12,9 @@ body {
     z-index: -1;
 }
 
-.titulos {
+#Header {
     width: 100%;
+    z-index: -1;
     position: fixed;
     text-align: center;
 }
@@ -46,7 +41,7 @@ body {
     font-size: 18px;
 }
 
-#menu {
+#Nav {
     position: fixed;
     top: 180px;
     width: 100%;
@@ -71,50 +66,53 @@ body {
     color: rgb(0, 139, 139);
 }
 
-#boxInicio {
+.boxPrimaria {
     position: relative;
+    top: 210px;
     width: 100%;
-    z-index: -3;
+    height: 440px;
+    z-index: -2;
+    background-color: rgb(5, 5, 5);
+}
+
+#boxInicio {
     background-color: rgb(55, 5, 55);
 }
 
 #boxAcercade {
-    position: relative;
-    width: 100%;
-    z-index: -3;
     background-color: rgb(55, 5, 5);
 }
 
 #boxFormacion {
-    position: relative;
-    width: 100%;
-    z-index: -3;
     background-color: rgb(155, 15, 5);
 }
 
 #boxExperiencia {
-    position: relative;
-    width: 100%;
-    z-index: -3;
     background-color: rgb(205, 255, 5);
 }
 
 #boxContacto {
-    position: relative;
-    width: 100%;
-    z-index: -3;
     background-color: rgb(255, 155, 5);
 }
 
 .boxSecundaria {
     position: relative;
-    height: 450px;
-    width: 100%;
-    z-index: -3;
-    background-color: rgb(80, 80, 80);
+    top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;;
+    background-color: rgb(200, 200, 200);
 }
 
 #fotoPerfil {
     margin: 10px;
     width: 200px;
+}
+
+#iconosContacto {
+    text-align: center;
+    width: 200px;
+}
+
+.icono {
+    width: 50px;
 }
