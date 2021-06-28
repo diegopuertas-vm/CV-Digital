@@ -100,7 +100,7 @@ body {
 }
 
 #boxExperiencia {
-    background-image: url("/images/redes.jpg");
+    background-image: url("/images/resumen-puntos-lineas.jpg");
     background-size: cover;
 }
 
@@ -116,8 +116,8 @@ body {
 
 .Seccion {
     text-align: center;
-    color: rgb(5, 5, 5);
-    text-shadow: 2px 2px 0px #FF0077;
+    color: rgb(25, 25, 25);
+    text-shadow: 2px 2px 0px #91A3B0;
 }
 
 #tablaContacto {
