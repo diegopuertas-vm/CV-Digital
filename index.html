@@ -5,18 +5,18 @@
 		<link href="styles/styles.css" rel="stylesheet">
     </head>
 
-    <body id="Inicio">
+    <body>
         <video id="videoLoop" autoplay loop>
             <source src="videos/Line_46955_cut.mp4" type="video/mp4">
         </video>
 
-        <div id="Header">
-            <img id="logo" src="images/logo.png">
+        <header id="Header">
+            <img id="logo" src="images/logo.png" alt="logo DP">
             <h1 id="titulo">Diego Puertas</h1>
             <h2 id="subtitulo">MI PRIMER SITIO WEB</h2>
-        </div>
+        </header>
 
-        <div id="Nav">
+        <nav id="Nav">
             <table id="tablaMenu">
                 <th>
                     <a class="linkMenu" href="#Inicio">
@@ -39,14 +39,14 @@
                     </a>
                 </th>
             </table>
-        </div>
+        </nav>
 
-        <div class="boxPrimaria">
+        <section id="Inicio">
             <div id="boxInicio" class="boxSecundaria">
                 <div class="Traslucido">
                     <table id="tablaInicio">
                         <th>
-                            <img id="fotoPerfil" src="images/fotoPerfil.jpg">
+                            <img id="fotoPerfil" src="images/fotoPerfil.jpg" alt="Foto de perfil">
                         </th>
                         <th>
                             <p>¡Hola! Mi nombre es Diego Puertas, soy estudiante de las carreras de Ingerniería en Sistemas de Información y Programador Universitario de Sistemas.</p>
@@ -56,41 +56,50 @@
                     </table>
                 </div>
             </div>
+        </section>
+        
+        <section id="Acercade">
             <div id="boxAcercade" class="boxSecundaria">
                 <div class="Traslucido">
-                    <h1 id="Acercade" class="Seccion">Sobre mí</h1>
+                    <h1 class="Seccion">Sobre mí</h1>
                     <p>Soy una persona proactiva, con ganas de seguir aprendiendo. La programación web es un nuevo proyecto para mí.</p>
                     <p>Hace algunos años atrás, por medio de gestores de sitios web, ya había realizado sitios web completos. Los mismos contaban con conexión a bases de datos sql, pero ese proyecto no perduró.</p>
                     <p>Comenzar a programar web desde cero a base de código puro es un nuevo desafío, que espero vencer.</p>
                 </div>
             </div>
+        </section>
+        
+        <section id="Formacion">
             <div id="boxFormacion" class="boxSecundaria">
                 <div class="Traslucido">
-                    <h1 id="Formacion" class="Seccion">Formación y Experiencia</h1>
+                    <h1 class="Seccion">Formación y Experiencia</h1>
                     <p>Con el correr del tiempo me formé y adquirí experiencia en diferentes áreas. Te invito a que visitar mis perfiles de Linkedin y Github. Podés escanear los códigos QR o acceder a links que están debajo de los códigos.</p>
                     <table id="tablaFormacion">
                         <tr>
-                            <th>
-                                <a class="linkMenu" title="Linkedin" href="https://www.linkedin.com/in/diegopuertas-vm/" target="_blank" rel="noopener noreferrer"><img class="codigoQR" src="images/qrLinkedin.png" alt="link a mi perfil de Linkedin"></a>
-                            </th>
-                            <th>
-                                <a class="linkMenu" title="Github" href="https://github.com/diegopuertas-vm" target="_blank" rel="noopener noreferrer"><img class="codigoQR" src="images/qrGithub.png" alt="link a mi repositorio de Github"></a>
-                            </th>
+                            <td>
+                                <a title="Linkedin" href="https://www.linkedin.com/in/diegopuertas-vm/" target="_blank" rel="noopener noreferrer"><img class="codigoQR" src="images/qrLinkedin.png" alt="link a mi perfil de Linkedin"></a>
+                            </td>
+                            <td>
+                                <a title="Github" href="https://github.com/diegopuertas-vm" target="_blank" rel="noopener noreferrer"><img class="codigoQR" src="images/qrGithub.png" alt="link a mi repositorio de Github"></a>
+                            </td>
                         </tr>
                         <tr>
-                            <th>
+                            <td>
                                 <a class="linkMenu" href="https://www.linkedin.com/in/diegopuertas-vm/" target="_blank" rel="noopener noreferrer">Linkedin</a>
-                            </th>
-                            <th>
+                            </td>
+                            <td>
                                 <a class="linkMenu" href="https://github.com/diegopuertas-vm" target="_blank" rel="noopener noreferrer">Github</a>
-                            </th>
+                            </td>
                         </tr>
                     </table>
                 </div>
             </div>
+        </section>
+        
+        <section id="Contacto">
             <div id="boxContacto" class="boxSecundaria">
                 <div class="Traslucido">
-                    <h1 id="Contacto" class="Seccion">Contactame</h1>
+                    <h1 class="Seccion">Contactame</h1>
                     <p>Podés contactarte conmigo a través de estos enlaces:</p>
                     <table id="tablaContacto">
                         <tr>
@@ -120,6 +129,6 @@
                     </table>
                 </div>
             </div>
-        </div>
+        </section>
     </body>
 </html>
