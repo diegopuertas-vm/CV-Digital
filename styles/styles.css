@@ -18,6 +18,9 @@ body {
     z-index: -1;
     position: fixed;
     text-align: center;
+    color: white;
+    text-shadow: 1px 1px 3px rgb(70, 70, 70);
+    font-family: 'Baloo Tammudu 2';
 }
 
 #logo {
@@ -27,18 +30,12 @@ body {
 
 #titulo {
     margin-top: -10px;
-    color: white;
-    text-shadow: 1px 1px 3px rgb(70, 70, 70);
-    font-family: 'Baloo Tammudu 2';
     font-style: italic;
     font-size: 40px;
 }
 
 #subtitulo {
     margin-top: -60px;
-    color: white;
-    text-shadow: 1px 1px 3px rgb(70, 70, 70);
-    font-family: 'Baloo Tammudu 2';
     font-size: 18px;
 }
 
@@ -52,14 +49,10 @@ body {
 
 #tablaMenu {
     position: relative;
-    width: 60%;
+    width: 45%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-}
-
-.Traslucido {
-    background-color: rgba(255, 255, 255, .50);
 }
 
 .linkMenu {
@@ -138,11 +131,11 @@ body {
 }
 
 #tablaFormacion {
-    position: relative;
-    width: 60%;
+    width: 500px;
     margin-left: auto;
     margin-right: auto;
     font-size: 20px;
+    text-align: center;
 }
 
 .icono {
@@ -151,4 +144,8 @@ body {
 
 .codigoQR {
     width: 200px;
+}
+
+.Traslucido {
+    background-color: rgba(255, 255, 255, .60);
 }
