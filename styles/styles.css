@@ -94,6 +94,7 @@ body {
     background-image: url("https://diegopuertas-vm.github.io/CV-Digital/images/resumen-puntos-lineas.jpg");
     background-size: cover;
     background-position: center;
+    padding-bottom: 30px;
 }
 
 #boxFormacion {
@@ -106,6 +107,7 @@ body {
     background-image: url("https://diegopuertas-vm.github.io/CV-Digital/images/redes-sociais.png");
     background-size: cover;
     background-position: center;
+    padding-bottom: 120px;
 }
 
 #fotoPerfil {
@@ -121,7 +123,7 @@ body {
 }
 
 #tablaInicio {
-    width: 80%;
+    width: 85%;
     margin-left: auto;
     margin-right: auto;
     font-size: 20px;
