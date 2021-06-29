@@ -7,16 +7,14 @@ body {
 
 #videoLoop {
     top: -10px;
-    position: fixed;
     background-color: rgb(5, 5, 5);
     width: 100%;
-    z-index: 1;
 }
 
-#Header {
-    width: 100%;
-    position: fixed;
-    z-index: 2;
+.Header {
+    width: 99%;
+    position: absolute;
+    top: 15px;
     text-align: center;
     color: white;
     text-shadow: 1px 1px 3px rgb(70, 70, 70);
@@ -25,7 +23,7 @@ body {
 
 #logo {
     margin-top: 2%;
-    width: 3%;
+    width: 40px;
 }
 
 #titulo {
@@ -40,21 +38,31 @@ body {
 }
 
 #Nav {
-    position: fixed;
-    z-index: 2;
-    top: 180px;
+    list-style-type: none;
     width: 100%;
-    height: 35px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
     background-color: rgb(5, 5, 5);
-}
-
-#tablaMenu {
-    position: relative;
-    width: 45%;
-    margin-left: auto;
-    margin-right: auto;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
     text-align: center;
-}
+    padding: 14px 16px;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
 
 .linkMenu {
     color: rgb(255, 0, 119);
@@ -65,44 +73,14 @@ body {
     color: rgb(0, 139, 139);
 }
 
-#Inicio {
-    position: relative;
-    top: 190px;
-    width: 99%;
-    padding: 10px;
-    background-color: rgb(5, 5, 5);
-}
-
-#Acercade {
-    position: relative;
-    top: 180px;
-    width: 99%;
-    padding: 10px;
-    background-color: rgb(5, 5, 5);
-}
-
-#Formacion {
-    position: relative;
-    top: 170px;
-    width: 99%;
-    padding: 10px;
-    background-color: rgb(5, 5, 5);
-}
-
-#Contacto {
-    position: relative;
-    top: 160px;
-    width: 99%;
-    padding: 10px;
+.boxPrimaria {
+    width: 100%;
     background-color: rgb(5, 5, 5);
 }
 
 .boxSecundaria {
-    position: relative;
-    padding: 20px;
+    /*padding: 10px;*/
     background-color: rgb(200, 200, 200);
-    -webkit-box-shadow: 0px 0px 5px 8px #000000; 
-    box-shadow: 0px 0px 5px 8px #000000;
     font-size: 20px;
 }
 
