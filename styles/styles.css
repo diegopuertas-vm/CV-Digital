@@ -49,18 +49,17 @@ body {
     top: 0;
   }
   
-  li {
+  .liNav {
     float: left;
   }
   
-  li a {
+  .liNav a {
     display: block;
-    color: white;
     text-align: center;
     padding: 14px 16px;
   }
   
-  li a:hover {
+  .liNav a:hover {
     background-color: #111;
   }
 
@@ -74,6 +73,7 @@ body {
 }
 
 .boxPrimaria {
+    align-content: top;
     width: 100%;
     background-color: rgb(5, 5, 5);
 }
@@ -114,13 +114,14 @@ body {
 }
 
 .Seccion {
+    padding-top: 40px;
     text-align: center;
     color: rgb(5, 5, 5);
-    text-shadow: 2px 2px 0px #008B8B;
+    text-shadow: 2px 2px 2px #008B8B;
 }
 
 #tablaInicio {
-    width: 1000px;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     font-size: 20px;
